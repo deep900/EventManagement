@@ -1,0 +1,9 @@
+.footer{
+    position: sticky;
+    bottom: 0;
+    display: grid;
+    background-color: black;
+    color: antiquewhite;
+    height: 40px;
+    align-items: center;
+}

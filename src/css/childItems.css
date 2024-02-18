@@ -1,0 +1,12 @@
+.childItemsPresent {
+    display: grid;
+    width:100%;
+    align-items: center;
+    grid-template-columns: 40% 60%;   
+    /*border: 1px solid black;*/    
+    padding-right: 2px;   
+}
+/* Hide the div if no elements found */
+.childItemsAbsent {
+    display: none;
+}

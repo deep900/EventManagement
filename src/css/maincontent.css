@@ -1,0 +1,92 @@
+.maincontent{
+    display:flex;
+    flex-grow: 1;    
+    place-content: center;
+    align-items: center;
+   /* min-height: 100vh; */
+    flex-direction: column;
+    background-image: radial-gradient(whitesmoke, green);
+}
+.maincontent form {
+    width: 100%;    
+}
+
+.gridContainer {
+    grid-template-columns: 40% 60%;
+    display: grid;
+    padding:1px;    
+    margin: 5px 5px 5px 5px;
+}
+
+.gridItem {    
+    align-items: normal;
+    padding:10px;    
+    border: 0.1px dashed lightgrey;    
+}
+
+.gridItem label {
+    text-align: left;
+}
+
+.inputElement {
+    background-color: none;
+    min-width: 100px;
+}
+
+.inputElement:focus{
+    background-color: rgb(235, 223, 62);  
+    transition: 2s;   
+}
+
+.label {
+    min-width: 100px;
+}
+
+.buttonBar {
+    width: 100%;
+    position:block;    
+    display: flex;    
+    min-height: 30px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 5px;
+}
+
+.button {
+    min-width: 50px;
+    min-height: 14px;
+    background-color: rgb(60, 78, 241);
+    color:white;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid rgb(101, 99, 243);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;            
+    margin-left: 20px;        
+    justify-content: space-between;    
+}
+
+.cancelButton{
+    background-color: rgb(233, 92, 36);
+}
+
+.button:hover {    
+    background-color: #9eaaa1;
+    color:black;
+}
+
+.childDiv {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.childDetails {
+    display:block;
+    flex-grow: 1;
+    text-align: center;
+    align-items: center;
+}
